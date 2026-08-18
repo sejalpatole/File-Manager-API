@@ -1,0 +1,21 @@
+fastapi
+uvicorn
+pydantic
+
+
+# TO RUN THE PROJECT
+
+# Step 1: Install all the packages
+# => pip install -r requirements.txt
+
+#Step 2: Start FastAPI server
+# => uvicorn main:app --reload
+
+# Step 3: Open Swagger UI
+# => http://127.0.0.1:8000/docs
+
+#There you'll be able to:
+# Add Student (POST)
+# Get All Students (GET)
+# Get Student By ID (GET)
+# Delete Student (DELETE)
